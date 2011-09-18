@@ -10,11 +10,11 @@ mysql_select_db($dbname);
 
 if($connection!=true)
 {
-echo "<b> Warnung: </b> Die Verbindung zur Datenbank ist fehlgeschlagen. (<a href=\"http://comess.entenmix.de/support.php?error=01\">Fehlercode: 01</a>)";
+echo "<b> <font color=\"red\"> Warnung: </font> </b> Die Verbindung zur Datenbank ist fehlgeschlagen. (<a href=\"http://comess.entenmix.de/support.php?error=01\">Fehlercode: 01</a>)";
 }
 
 $version = "1.0.0 Alpha 1";
-$versionscode = "100unstable";
+$versionscode = "100Unstable";
 $copyright = "<a href=\"http://comess.entenmix.de\">ComessBook $version, entwickelt von KomHunter</a>";
 
 ?>
